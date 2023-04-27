@@ -24,3 +24,7 @@ script:
     - "--mail-type=BEGIN"
     - "--mail-user=<%= email %>"
 <%- end -%>
+<%- if reserve_node == "1" -%>
+    - "--exclusive"
+    - "--mem=0"
+<%- end -%>

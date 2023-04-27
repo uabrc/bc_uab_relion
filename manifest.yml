@@ -1,0 +1,11 @@
+---
+name: RELION
+category: Interactive Apps
+subcategory: CryoEM
+role: batch_connect
+description: |
+  This app will launch [RELION] on the [Cheaha]. You will be able
+  to interact with the RELION through a VNC session.
+
+  [RELION]: https://relion.readthedocs.io/ 
+  [Cheaha]: https://docs.uabgrid.uab.edu

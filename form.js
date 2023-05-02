@@ -36,6 +36,6 @@ function toggle_visibilty_of_form_group(form_id, show) {
 
 toggle_gpu_visibility(
   // Fake the event
-  { target: document.querySelector('#batch_connect_session_context_bc_num_gpus') }
+  { target: document.querySelector('#batch_connect_session_context_bc_partition') }
 );
 set_partition_change_handler();

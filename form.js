@@ -6,7 +6,7 @@ function set_partition_change_handler() {
 }
 
 function toggle_gpu_visibility(event) {
-  const show = /pascalnodes/.test(event.target.value);
+  const show = /pascal|ampere/.test(event.target.value);
   const selector = '#batch_connect_session_context_bc_num_gpus';
   toggle_visibilty_of_form_group(selector, show);
 }
